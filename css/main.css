@@ -159,7 +159,7 @@ hr {
     float: left;
 }
 h1 {
-    font-size: 24px;
+    font-size: 30px;
     font-weight: bold;
 }
 h2 {
@@ -258,7 +258,7 @@ ul.sublist {
     margin-bottom: 22px;
 }
 .main-title h1 {
-    font-size: 24px;
+    font-size: 30px;
     font-weight: 700;
     margin: 0;
 }
@@ -1056,6 +1056,7 @@ span.border-text {
 }
 .menu-wrap a {
     color: #fff;
+    font-size: 31px;
 }
 .menu-wrap a:hover,
 .menu-wrap a:focus {
@@ -2890,16 +2891,19 @@ input[type="text"] {
 }
 .footer-content p {
     color: #787878;
+    font-size: 19px;
 }
 .footer-content h4 {
     font-weight: 700;
     color: #000;
     text-transform: uppercase;
+    font-size: 24px;
 }
 .footer-content address {
     color: #787878;
     font-size: 14px;
     letter-spacing: 1.5pt;
+    font-size: 18px;
 }
 ul.social-media {
     padding: 0;
@@ -2909,6 +2913,7 @@ ul.social-media li {
     list-style-type: none;
     display: inline;
     padding: 5px;
+    font-size: 32px;
 }
 ul.social-media li a i {
     color: #111111;
@@ -3134,4 +3139,33 @@ a img.aligncenter {
 
 .grey:hover{
     filter: grayscale(0);
+}
+
+
+.barra {
+    border-radius: 60px;
+    overflow: hidden;
+    width: 100%;
+  }
+  .barra span {
+    display: block;
+  }
+  
+  .barra1 {
+    background: rgba(0, 0, 0, 0.075);
+  }
+  
+  .progresso {
+    -webkit-animation: loader 8s ease infinite;
+            animation: loader 8s ease infinite;
+    background: #86eecb;
+    color: #fff;
+    padding: 5px;
+    width: 0;
+  }
+  
+  .barra {
+    width: 70%;
+    position: relative;
+    left: 16%;
 }
