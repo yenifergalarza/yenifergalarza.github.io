@@ -173,13 +173,13 @@ function likeEf() {
         jQuery(this).find('span.like-product').toggleClass('press');
         if (jQuery(this).find('i').hasClass('press') || jQuery(this).find('i').hasClass('ion-ios-heart-outline')) {
             jQuery(this).find('.output').html(function(i, val) {
-                return val * 1 + 1
+               // return val * 1 + 1
             });
             jQuery(this).find('i').addClass('ion-ios-heart');
             jQuery(this).find('i').removeClass('ion-ios-heart-outline');
         } else {
             jQuery(this).find('.output').html(function(i, val) {
-                return val * 1 - 1
+                //return val * 1 - 1
             });
             jQuery(this).find('i').removeClass('ion-ios-heart');
             jQuery(this).find('i').addClass('ion-ios-heart-outline');
