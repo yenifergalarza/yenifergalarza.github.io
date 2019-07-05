@@ -166,7 +166,7 @@ function historySlider() {
 };
 
 //Like
-/* function likeEf() {
+function likeEf() {
     jQuery('.like-product').on('click',  function() {
         jQuery(this).find('i').toggleClass('press');
         jQuery(this).find('i').removeClass('ion-ios-heart-outline');
@@ -186,7 +186,7 @@ function historySlider() {
 
         }
     });
-}; */
+};
 
 //Document Ready
 jQuery(document).ready(function($) {
