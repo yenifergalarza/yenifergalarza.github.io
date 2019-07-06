@@ -143,7 +143,7 @@ small {
 p {
     color: #111111;
     line-height: 24px;
-    font-size: 14px;
+    font-size: 17px;
     font-weight: 100;
     clear: both;
     letter-spacing: 0.4px;
@@ -3154,7 +3154,7 @@ a img.aligncenter {
   }
   
   .barra1 {
-    background: rgba(0, 0, 0, 0.075);
+    background: rgba(0, 0, 0, 0.21);
   }
   
   .progresso {

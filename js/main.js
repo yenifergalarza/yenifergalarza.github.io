@@ -16,7 +16,13 @@ $.fn.escape = function(callback) {
 var navigationRight = jQuery('.menu-wrap');
 
 function Navigation() {
+    
     var bodyEl = document.body,
+    content1 = document.querySelector('#close-button1'),
+    content2 = document.querySelector('#close-button2'),
+    content3 = document.querySelector('#close-button3'),
+    content4 = document.querySelector('#close-button4'),
+    content5 = document.querySelector('#close-button5'),
         content = document.querySelector('#close-button'),
         openbtn = document.getElementById('open-button'),
         closebtn = document.getElementById('close-button'),
@@ -34,6 +40,36 @@ function Navigation() {
 
         // close the menu element if the target it´s not the menu element or one of its descendants..
         content.addEventListener('click', function(ev) {
+            var target = ev.target;
+            if (isOpen && target !== openbtn) {
+                toggleMenu();
+            }
+        });
+        content1.addEventListener('click', function(ev) {
+            var target = ev.target;
+            if (isOpen && target !== openbtn) {
+                toggleMenu();
+            }
+        });
+        content2.addEventListener('click', function(ev) {
+            var target = ev.target;
+            if (isOpen && target !== openbtn) {
+                toggleMenu();
+            }
+        });
+        content3.addEventListener('click', function(ev) {
+            var target = ev.target;
+            if (isOpen && target !== openbtn) {
+                toggleMenu();
+            }
+        });
+        content4.addEventListener('click', function(ev) {
+            var target = ev.target;
+            if (isOpen && target !== openbtn) {
+                toggleMenu();
+            }
+        });
+        content5.addEventListener('click', function(ev) {
             var target = ev.target;
             if (isOpen && target !== openbtn) {
                 toggleMenu();
