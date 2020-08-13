@@ -16,13 +16,13 @@ $.fn.escape = function(callback) {
 var navigationRight = jQuery('.menu-wrap');
 
 function Navigation() {
-    
+
     var bodyEl = document.body,
-    content1 = document.querySelector('#close-button1'),
-    content2 = document.querySelector('#close-button2'),
-    content3 = document.querySelector('#close-button3'),
-    content4 = document.querySelector('#close-button4'),
-    content5 = document.querySelector('#close-button5'),
+        content1 = document.querySelector('#close-button1'),
+        content2 = document.querySelector('#close-button2'),
+        content3 = document.querySelector('#close-button3'),
+        content4 = document.querySelector('#close-button4'),
+        content5 = document.querySelector('#close-button5'),
         content = document.querySelector('#close-button'),
         openbtn = document.getElementById('open-button'),
         closebtn = document.getElementById('close-button'),
@@ -226,14 +226,14 @@ function historySlider() {
 
 //Document Ready
 jQuery(document).ready(function($) {
-    
+
     //Navigation Sub Menu Triggering
     jQuery('.menu-item-has-children, .page_item_has_children').hover(function() {
-        jQuery(this).children('.sub-menu').stop().slideDown(200);
-    }, 
-    function() {
-        jQuery(this).children('.sub-menu').stop().slideUp(200);
-    });
+            jQuery(this).children('.sub-menu').stop().slideDown(200);
+        },
+        function() {
+            jQuery(this).children('.sub-menu').stop().slideUp(200);
+        });
 
     //Mobile Menu Open/Close 
     jQuery('#open-mobile-menu').on('click', function() {
@@ -359,21 +359,6 @@ jQuery(document).ready(function($) {
         jQuery(".cover").addClass('animated fadeOutRight').fadeOut(1000);
     });
 
-    //Magnific Popup  
-    jQuery('.popup-video').magnificPopup({
-        type: 'iframe',
-        closeOnContentClick: true,
-        closeBtnInside: false,
-        fixedContentPos: true,
-        mainClass: 'mfp-no-margins mfp-with-zoom', // class to remove default margin from left and right side
-        image: {
-            verticalFit: true
-        },
-        zoom: {
-            enabled: true,
-            duration: 300 // don't foget to change the duration also in CSS
-        }
-    });
 
     //Kenburnsy Slides
     jQuery('#slider-ef').kenburnsy();
@@ -400,7 +385,7 @@ jQuery(document).ready(function($) {
 
 //Window Load
 jQuery(window).load(function($) {
-    
+
     /*Init Portfolio*/
     var container = jQuery("#work-grid");
     if (container.length > 0) {
